@@ -1,0 +1,24 @@
+✅ Using fixed submission: ce9885cb-7693-4311-b5ad-3c833471fa48
+🚀 Triggering 'fn_receive_audition_submission' with this ID...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    57    0     0  100    57      0     52  0:00:01  0:00:01 --:--:--    52100    57    0     0  100    57      0     29  0:00:01  0:00:01 --:--:--    29100  1037    0   980  100    57    501     29  0:00:01  0:00:01 --:--:--   530
+HTTP/2 200 
+date: Sun, 30 Nov 2025 03:38:49 GMT
+content-type: application/json
+server: cloudflare
+cf-ray: 9a67506119982178-MAD
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+access-control-allow-headers: authorization, x-client-info, apikey, content-type
+sb-project-ref: uvszvjbzcvkgktrvavqe
+sb-request-id: 019ad2d7-78b8-7802-8fd0-9863c938c581
+x-deno-execution-id: c131a1c9-97df-419b-b7b9-0a86d7e997e8
+x-sb-edge-region: eu-west-3
+x-served-by: supabase-edge-runtime
+set-cookie: __cf_bm=.yhRaQWSPujt6SlRj.WgSFy5u5Zf8HekpJaRUHDbrkc-1764473929-1.0.1.1-TKGhDo_erGIHJ0YBwzRnL3KtF96Jm3xtEn2AzKBKpfJ1RebdJc_lasoigZXCqUOLe30lQ_XzEJnhkrOUK9B9mNkTqmSH6eUUQwJ2aYtRnSY; path=/; expires=Sun, 30-Nov-25 04:08:49 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+
+{"message":"Audition submission processed and sent to VettedAI successfully","vetted_response":{"success":true,"submission_id":"ce9885cb-7693-4311-b5ad-3c833471fa48","project_candidate_id":"191c5c57-f663-491e-b6b2-06e853b09979","candidate_id":"ff472509-baed-40d2-be1e-cb5787e7c510","answers_stored":1,"message":"Submission received and processed successfully"},"data":{"submission_id":"ce9885cb-7693-4311-b5ad-3c833471fa48","project_id":"11bd4029-3508-4928-8825-38f3b3167ca9","email":"unknown@example.com","name":"Unknown Candidate","answers":[{"question_id":"Q002_C2_prioritize","question_text":"How would you approach a problem where you need to detect objects in low-light, blurry video footage?","transcript":"Mm-hmm.\n","audio_url":"https://uvszvjbzcvkgktrvavqe.supabase.co/storage/v1/object/public/audition-recordings/answers/1f87251e-5666-4ec5-bb3c-93ca24bee162/550e8400-e29b-41d4-a716-446655440003/ML1_1762403778445.webm","submitted_at":"2025-11-06T04:36:20.283+00:00"}]}}

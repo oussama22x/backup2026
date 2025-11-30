@@ -1,0 +1,102 @@
+✅ Using fixed submission: ce9885cb-7693-4311-b5ad-3c833471fa48
+🚀 Triggering 'send-audition-to-vetted' with this ID...
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* Uses proxy env variable NO_PROXY == '*.azureedge.net'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host uvszvjbzcvkgktrvavqe.supabase.co:443 was resolved.
+* IPv6: (none)
+* IPv4: 172.64.149.246, 104.18.38.10
+*   Trying 172.64.149.246:443...
+* Connected to uvszvjbzcvkgktrvavqe.supabase.co (172.64.149.246) port 443
+* ALPN: curl offers http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [25 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [2530 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519 / id-ecPublicKey
+* ALPN: server accepted http/1.1
+* Server certificate:
+*  subject: CN=supabase.co
+*  start date: Nov  4 05:55:42 2025 GMT
+*  expire date: Feb  2 06:55:37 2026 GMT
+*  subjectAltName: host "uvszvjbzcvkgktrvavqe.supabase.co" matched cert's "*.supabase.co"
+*  issuer: C=US; O=Google Trust Services; CN=WE1
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+*   Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+* using HTTP/1.x
+} [5 bytes data]
+> POST /functions/v1/send-audition-to-vetted HTTP/1.1
+> Host: uvszvjbzcvkgktrvavqe.supabase.co
+> User-Agent: curl/8.5.0
+> Accept: */*
+> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV2c3p2amJ6Y3ZrZ2t0cnZhdnFlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3NzgwNDYsImV4cCI6MjA3NzM1NDA0Nn0.Fbvd5EO5M0JxFY8VMwW2dTeiZYaOPTho8UPij4rFLzE
+> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5uZmpqaGlhamRuZm1zdmNlY2JnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk3NzE5NjMsImV4cCI6MjA3NTM0Nzk2M30.tcu80IroKM_nqdX1Mc9GlxMpK7PE3gn6Y1eP6P9RSig
+> Content-Type: application/json
+> Content-Length: 57
+> 
+} [57 bytes data]
+100    57    0     0  100    57      0     53  0:00:01  0:00:01 --:--:--    53100    57    0     0  100    57      0     27  0:00:02  0:00:02 --:--:--    27100    57    0     0  100    57      0     18  0:00:03  0:00:03 --:--:--    18100    57    0     0  100    57      0     13  0:00:04  0:00:04 --:--:--    13100    57    0     0  100    57      0     11  0:00:05  0:00:05 --:--:--    11100    57    0     0  100    57      0      9  0:00:06  0:00:06 --:--:--     0100    57    0     0  100    57      0      8  0:00:07  0:00:07 --:--:--     0100    57    0     0  100    57      0      7  0:00:08  0:00:08 --:--:--     0100    57    0     0  100    57      0      6  0:00:09  0:00:09 --:--:--     0100    57    0     0  100    57      0      5  0:00:11  0:00:10  0:00:01     0100    57    0     0  100    57      0      5  0:00:11  0:00:11 --:--:--     0100    57    0     0  100    57      0      4  0:00:14  0:00:12  0:00:02     0100    57    0     0  100    57      0      4  0:00:14  0:00:13  0:00:01     0100    57    0     0  100    57      0      4  0:00:14  0:00:14 --:--:--     0100    57    0     0  100    57      0      3  0:00:19  0:00:15  0:00:04     0100    57    0     0  100    57      0      3  0:00:19  0:00:16  0:00:03     0100    57    0     0  100    57      0      3  0:00:19  0:00:17  0:00:02     0* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [230 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+100    57    0     0  100    57      0      3  0:00:19  0:00:18  0:00:01     0< HTTP/1.1 500 Internal Server Error
+< Date: Sun, 30 Nov 2025 02:48:19 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Server: cloudflare
+< CF-Ray: 9a6705ffe925f774-MAD
+< CF-Cache-Status: DYNAMIC
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Vary: Accept-Encoding
+< sb-project-ref: uvszvjbzcvkgktrvavqe
+< sb-request-id: 019ad2a8-fbf8-779f-8c53-07ea1dbdde4a
+< x-deno-execution-id: 581bdcfb-4681-4f32-9f6f-9ebba6da1cb2
+< x-sb-edge-region: eu-west-3
+< x-served-by: supabase-edge-runtime
+< Set-Cookie: __cf_bm=spVoI_0EBBSDCXbNRzSIaDwKyLlo4VUOrUNtE9qjo3k-1764470899-1.0.1.1-ymCz58UvHfsJOQhxQzkpLbNzUBf0wfnloc0sFt3PihvgvmRG1_tUOR7KHHcBZKIYyG4Jo20b1aTq1Uleltwv6hTSsDL3ZAP7Ut6dYGQb1NE; path=/; expires=Sun, 30-Nov-25 03:18:19 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
+< alt-svc: h3=":443"; ma=86400
+< 
+{ [237 bytes data]
+100   294    0   237  100    57     13      3  0:00:19  0:00:18  0:00:01    59
+* Connection #0 to host uvszvjbzcvkgktrvavqe.supabase.co left intact
+HTTP/1.1 500 Internal Server Error
+Date: Sun, 30 Nov 2025 02:48:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+CF-Ray: 9a6705ffe925f774-MAD
+CF-Cache-Status: DYNAMIC
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+sb-project-ref: uvszvjbzcvkgktrvavqe
+sb-request-id: 019ad2a8-fbf8-779f-8c53-07ea1dbdde4a
+x-deno-execution-id: 581bdcfb-4681-4f32-9f6f-9ebba6da1cb2
+x-sb-edge-region: eu-west-3
+x-served-by: supabase-edge-runtime
+Set-Cookie: __cf_bm=spVoI_0EBBSDCXbNRzSIaDwKyLlo4VUOrUNtE9qjo3k-1764470899-1.0.1.1-ymCz58UvHfsJOQhxQzkpLbNzUBf0wfnloc0sFt3PihvgvmRG1_tUOR7KHHcBZKIYyG4Jo20b1aTq1Uleltwv6hTSsDL3ZAP7Ut6dYGQb1NE; path=/; expires=Sun, 30-Nov-25 03:18:19 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+
+{"error":"Internal server error","message":"Failed after 5 attempts: Server error 500: {\"error\":\"Question Q013_A3_experiment_design not found in scaffold: Question Q013_A3_experiment_design not found in scaffold\",\"success\":false}"}
