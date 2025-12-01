@@ -1,0 +1,22 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    57    0     0  100    57      0     51  0:00:01  0:00:01 --:--:--    51100    57    0     0  100    57      0     26  0:00:02  0:00:02 --:--:--    26100    57    0     0  100    57      0     18  0:00:03  0:00:03 --:--:--    18100    57    0     0  100    57      0     14  0:00:04  0:00:03  0:00:01    14100  1071    0  1014  100    57    258     14  0:00:04  0:00:03  0:00:01   273
+HTTP/2 200 
+date: Sun, 30 Nov 2025 05:10:28 GMT
+content-type: application/json
+server: cloudflare
+cf-ray: 9a67d6971e61707d-MAD
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+access-control-allow-headers: authorization, x-client-info, apikey, content-type
+sb-project-ref: uvszvjbzcvkgktrvavqe
+sb-request-id: 019ad32b-5a75-70df-8b07-4024a0a6c770
+x-deno-execution-id: b504ad4d-f09f-48a6-986a-9a50de0512b7
+x-sb-edge-region: eu-west-3
+x-served-by: supabase-edge-runtime
+set-cookie: __cf_bm=2I0m7Lu9rmLiAFmBN0NB9sdHAK.N8uAwt0421lL3YZg-1764479428-1.0.1.1-fPgKns7HgyNRvGV_NsOTMrQSEmgz_7FI0gUY6T4wpq5IVkAvI35s_ZW_6MVup.Lff5LnrLIMHKBYX5x44mxEi8EXoJhhb6o1M9HDGengZmg; path=/; expires=Sun, 30-Nov-25 05:40:28 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+
+{"message":"Audition submission processed and sent to VettedAI successfully","vetted_response":{"success":true,"submission_id":"ce9885cb-7693-4311-b5ad-3c833471fa48","project_candidate_id":"191c5c57-f663-491e-b6b2-06e853b09979","candidate_id":"ff472509-baed-40d2-be1e-cb5787e7c510","answers_stored":1,"message":"Submission received and processed successfully"},"data":{"submission_id":"ce9885cb-7693-4311-b5ad-3c833471fa48","project_id":"11bd4029-3508-4928-8825-38f3b3167ca9","email":"unknown@example.com","name":"Unknown Candidate","first_name":"Unknown","last_name":"Candidate","linkedin_url":"","resume_url":"","answers":[{"question_id":"Q002_C2_prioritize","question_text":"How would you approach a problem where you need to detect objects in low-light, blurry video footage?","transcript":"Mm-hmm.\n","audio_url":"https://uvszvjbzcvkgktrvavqe.supabase.co/storage/v1/object/public/audition-recordings/answers/1f87251e-5666-4ec5-bb3c-93ca24bee162/550e8400-e29b-41d4-a716-446655440003/ML1_1762403778445.webm"}]}}

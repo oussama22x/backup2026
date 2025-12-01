@@ -1,0 +1,6 @@
+✅ Using fixed submission: ce9885cb-7693-4311-b5ad-3c833471fa48
+🚀 Triggering 'fn_receive_audition_submission' with this ID...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    57    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (43) Failed sending HTTP POST request

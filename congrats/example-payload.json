@@ -1,0 +1,38 @@
+{
+  "submission_id": "81d388a1-1f2e-409a-8acd-b2d6a9739ebd",
+  "project_id": "2cbdf732-54dc-4511-aaa4-b745193fb0ff",
+  "email": "candidate@example.com",
+  "name": "John Doe",
+  "profile": {
+    "experience_level": 5,
+    "desired_salary_min": 80000,
+    "desired_salary_max": 120000,
+    "availability_date": "2025-01-15T00:00:00.000Z",
+    "start_timing": null,
+    "work_arrangements": [],
+    "location_preferences": [],
+    "current_city": "San Francisco, CA",
+    "current_country": null,
+    "desired_roles": ["Senior Backend Engineer"],
+    "linkedin_url": "https://linkedin.com/in/johndoe",
+    "github_url": "https://github.com/johndoe",
+    "portfolio_url": "https://johndoe.com",
+    "bio": "Experienced backend engineer with 5 years specializing in TypeScript and Supabase"
+  },
+  "answers": [
+    {
+      "question_id": "q1",
+      "question_text": "Tell us about your experience with backend development",
+      "transcript": "I have been working as a backend engineer for 5 years...",
+      "audio_url": "https://uvszvjbzcvkgktrvavqe.supabase.co/storage/v1/object/sign/audition-recordings/...",
+      "submitted_at": "2025-12-01T10:00:00Z"
+    },
+    {
+      "question_id": "q2",
+      "question_text": "What is your experience with TypeScript?",
+      "transcript": "I have extensive experience with TypeScript...",
+      "audio_url": "https://uvszvjbzcvkgktrvavqe.supabase.co/storage/v1/object/sign/audition-recordings/...",
+      "submitted_at": "2025-12-01T10:02:00Z"
+    }
+  ]
+}

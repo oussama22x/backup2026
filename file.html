@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supabase API Test</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, button { margin: 5px 0; padding: 5px; width: 300px; }
+    .record { border-bottom: 1px solid #ccc; padding: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Supabase API Test</h1>
+
+  <!-- Create -->
+  <h2>Create Job</h2>
+  <input type="text" id="job_title" placeholder="Job Title" /><br/>
+  <input type="text" id="job_description" placeholder="Job Description" /><br/>
+  <button onclick="createJob()">Create Job</button>
+
+  <!-- Read -->
+  <h2>All Jobs</h2>
+  <button onclick="getJobs()">Refresh List</button>
+  <div id="jobs"></div>
+
+  <!-- Update -->
+  <h2>Update Job</h2>
+  <input type="number" id="update_id" placeholder="Job ID to Update" /><br/>
+  <input type="text" id="update_title" placeholder="New Job Title" /><br/>
+  <input type="text" id="update_description" placeholder="New Job Description" /><br/>
+  <button onclick="updateJob()">Update Job</button>
+
+  <!-- Delete -->
+  <h2>Delete Job</h2>
+  <input type="number" id="delete_id" placeholder="Job ID to Delete" /><br/>
+  <button onclick="deleteJob()">Delete Job</button>
+
+  <script>
+    const API_URL = "http://localhost:3000/api";
+
+    // CREATE
+    async function createJob() {
+      const title = document.getElementById("job_title").value;
+      const description = document.getElementById("job_description").value;
+
+      const res = await fetch(`${API_URL}/create`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ job_title: title, job_description: description })
+      });
+      const data = await res.json();
+      alert(JSON.stringify(data));
+      getJobs();
+    }
+
+    // READ
+    async function getJobs() {
+      const res = await fetch(`${API_URL}/read`);
+      const data = await res.json();
+      const container = document.getElementById("jobs");
+      container.innerHTML = "";
+      data.forEach(job => {
+        const div = document.createElement("div");
+        div.className = "record";
+        div.textContent = `ID: ${job.id}, Title: ${job.job_title}, Description: ${job.job_description}`;
+        container.appendChild(div);
+      });
+    }
+
+    // UPDATE
+    async function updateJob() {
+      const id = document.getElementById("update_id").value;
+      const title = document.getElementById("update_title").value;
+      const description = document.getElementById("update_description").value;
+
+      const res = await fetch(`${API_URL}/update/${id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ job_title: title, job_description: description })
+      });
+      const data = await res.json();
+      alert(JSON.stringify(data));
+      getJobs();
+    }
+
+    // DELETE
+    async function deleteJob() {
+      const id = document.getElementById("delete_id").value;
+
+      const res = await fetch(`${API_URL}/delete/${id}`, { method: "DELETE" });
+      const data = await res.json();
+      alert(JSON.stringify(data));
+      getJobs();
+    }
+
+    // Load jobs initially
+    getJobs();
+  </script>
+</body>
+</html>

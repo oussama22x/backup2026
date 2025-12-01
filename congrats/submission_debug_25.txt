@@ -1,0 +1,22 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    57    0     0  100    57      0     50  0:00:01  0:00:01 --:--:--    51100   838    0   781  100    57    420     30  0:00:01  0:00:01 --:--:--   451
+HTTP/2 500 
+date: Sun, 30 Nov 2025 04:33:01 GMT
+content-type: application/json
+server: cloudflare
+cf-ray: 9a679fc33db0032d-MAD
+cf-cache-status: DYNAMIC
+access-control-allow-origin: *
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+access-control-allow-headers: authorization, x-client-info, apikey, content-type
+sb-project-ref: uvszvjbzcvkgktrvavqe
+sb-request-id: 019ad309-160f-7e4e-95d1-36e498ebaed8
+x-deno-execution-id: 18072109-c172-4303-ab49-f35ea0bf0570
+x-sb-edge-region: eu-west-3
+x-served-by: supabase-edge-runtime
+set-cookie: __cf_bm=n50tQy2dWX1A9CLumOCDrFeNpnTc1sYBDrCTkdKjNoY-1764477181-1.0.1.1-mxverGcvyeERSftL5e.yqV6Ccx4cPHE8S5OGU0OgN4HbpLwabX39lMKctgUGDXz4xKbKDCL29QmUDn9Myj49cVjr3Nxs15GNswxTivHsWCE; path=/; expires=Sun, 30-Nov-25 05:03:01 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+
+{"error":"Internal server error (DEBUG)","message":"Cannot read properties of null (reading 'first_name') [DEBUG: ProjectID=674acde9-6f6f-4a4f-b709-b4737ece702d, SubmissionID=ce9885cb-7693-4311-b5ad-3c833471fa48]","debug":{"projectId":"674acde9-6f6f-4a4f-b709-b4737ece702d","submissionId":"ce9885cb-7693-4311-b5ad-3c833471fa48","answers":[{"question_id":"dummy_id_to_force_repair","question_text":"How would you approach a problem where you need to detect objects in low-light, blurry video footage?","transcript":"Mm-hmm.\n","audio_url":"https://uvszvjbzcvkgktrvavqe.supabase.co/storage/v1/object/public/audition-recordings/answers/1f87251e-5666-4ec5-bb3c-93ca24bee162/550e8400-e29b-41d4-a716-446655440003/ML1_1762403778445.webm","submitted_at":"2025-11-06T04:36:20.283+00:00"}]}}
