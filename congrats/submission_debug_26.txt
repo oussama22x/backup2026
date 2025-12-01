@@ -1,22 +1,0 @@
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    57    0     0  100    57      0     50  0:00:01  0:00:01 --:--:--    51100    57    0     0  100    57      0     26  0:00:02  0:00:02 --:--:--    26100    57    0     0  100    57      0     18  0:00:03  0:00:03 --:--:--    18100    57    0     0  100    57      0     13  0:00:04  0:00:04 --:--:--    13100    57    0     0  100    57      0     11  0:00:05  0:00:05 --:--:--    11100    57    0     0  100    57      0      9  0:00:06  0:00:06 --:--:--     0100    57    0     0  100    57      0      7  0:00:08  0:00:07  0:00:01     0100    57    0     0  100    57      0      7  0:00:08  0:00:08 --:--:--     0100    57    0     0  100    57      0      6  0:00:09  0:00:09 --:--:--     0100    57    0     0  100    57      0      5  0:00:11  0:00:10  0:00:01     0100    57    0     0  100    57      0      5  0:00:11  0:00:11 --:--:--     0100    57    0     0  100    57      0      4  0:00:14  0:00:12  0:00:02     0100    57    0     0  100    57      0      4  0:00:14  0:00:13  0:00:01     0100    57    0     0  100    57      0      4  0:00:14  0:00:14 --:--:--     0100    57    0     0  100    57      0      3  0:00:19  0:00:15  0:00:04     0100    57    0     0  100    57      0      3  0:00:19  0:00:16  0:00:03     0100    57    0     0  100    57      0      3  0:00:19  0:00:17  0:00:02     0100   851    0   794  100    57     43      3  0:00:19  0:00:18  0:00:01   158100   851    0   794  100    57     43      3  0:00:19  0:00:18  0:00:01   196
-HTTP/2 500 
-date: Sun, 30 Nov 2025 04:34:03 GMT
-content-type: application/json
-server: cloudflare
-cf-ray: 9a67a0e4b8dd17f6-MAD
-cf-cache-status: DYNAMIC
-access-control-allow-origin: *
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-vary: Accept-Encoding
-access-control-allow-headers: authorization, x-client-info, apikey, content-type
-sb-project-ref: uvszvjbzcvkgktrvavqe
-sb-request-id: 019ad309-caf6-7cc8-a8ee-1907487d6127
-x-deno-execution-id: 220adecf-588d-4770-aff7-7593def1a5c7
-x-sb-edge-region: eu-west-3
-x-served-by: supabase-edge-runtime
-set-cookie: __cf_bm=N3F7XhcY_cvXojHdFcMEjaenDmaD2y4o94OSLMaYPi0-1764477243-1.0.1.1-pbVMUDymYoyPs6W7sbi.GViTGSDUHV7BeXKsQX.caVFE2Y_6WbIRGgmXOHRqxNSwYJMwYlyoWqklzZKB8A0Qweow9P0Jw7XbEpnoiqcb.FA; path=/; expires=Sun, 30-Nov-25 05:04:03 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
-alt-svc: h3=":443"; ma=86400
-
-{"error":"Internal server error (DEBUG)","message":"Client error 400: {\"error\":\"Missing or invalid submission_id\"} [DEBUG: ProjectID=674acde9-6f6f-4a4f-b709-b4737ece702d, SubmissionID=ce9885cb-7693-4311-b5ad-3c833471fa48]","debug":{"projectId":"674acde9-6f6f-4a4f-b709-b4737ece702d","submissionId":"ce9885cb-7693-4311-b5ad-3c833471fa48","answers":[{"question_id":"dummy_id_to_force_repair","question_text":"How would you approach a problem where you need to detect objects in low-light, blurry video footage?","transcript":"Mm-hmm.\n","audio_url":"https://uvszvjbzcvkgktrvavqe.supabase.co/storage/v1/object/public/audition-recordings/answers/1f87251e-5666-4ec5-bb3c-93ca24bee162/550e8400-e29b-41d4-a716-446655440003/ML1_1762403778445.webm","submitted_at":"2025-11-06T04:36:20.283+00:00"}]}}

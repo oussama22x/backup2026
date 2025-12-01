@@ -1,23 +1,0 @@
-✅ Using fixed submission: ce9885cb-7693-4311-b5ad-3c833471fa48
-🚀 Triggering 'fn_receive_audition_submission' with this ID...
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    57    0     0  100    57      0     51  0:00:01  0:00:01 --:--:--    51100    93    0    36  100    57     24     38  0:00:01  0:00:01 --:--:--    62
-HTTP/2 401 
-date: Sun, 30 Nov 2025 04:31:12 GMT
-content-type: application/json
-server: cloudflare
-cf-ray: 9a679d1f5d8bf76c-MAD
-cf-cache-status: DYNAMIC
-access-control-allow-origin: *
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-vary: Accept-Encoding
-access-control-allow-headers: authorization, x-client-info, apikey
-sb-project-ref: uvszvjbzcvkgktrvavqe
-sb-request-id: 019ad307-6f9f-7db1-bb23-dfaafede7e1e
-x-sb-edge-region: eu-west-3
-x-served-by: supabase-edge-runtime
-set-cookie: __cf_bm=.O86xHFBUQA8OUsKVR2x4j7oMJN8bcJTtkj6iIPycGg-1764477072-1.0.1.1-WNG1DnjWQkzzd2kH4UlqahJUYTaeBcXah5O3txAjShMvkOdVEmLbtMCFh7V2SfgHJtXUXfH8zDAT3YmlPHWzJ7CYuOD9_R.RUYTDs8ejKWw; path=/; expires=Sun, 30-Nov-25 05:01:12 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
-alt-svc: h3=":443"; ma=86400
-
-{"code":401,"message":"Invalid JWT"}

@@ -1,22 +1,0 @@
-✅ Using fixed submission: ce9885cb-7693-4311-b5ad-3c833471fa48
-🚀 Triggering 'fn_receive_audition_submission' with this ID...
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    57    0     0  100    57      0     51  0:00:01  0:00:01 --:--:--    51100    57    0     0  100    57      0     27  0:00:02  0:00:02 --:--:--    27100    57    0     0  100    57      0     18  0:00:03  0:00:03 --:--:--    18100    57    0     0  100    57      0     13  0:00:04  0:00:04 --:--:--    13100    57    0     0  100    57      0     11  0:00:05  0:00:05 --:--:--    11100    57    0     0  100    57      0      9  0:00:06  0:00:06 --:--:--     0100    57    0     0  100    57      0      7  0:00:08  0:00:07  0:00:01     0100    57    0     0  100    57      0      7  0:00:08  0:00:08 --:--:--     0100    57    0     0  100    57      0      6  0:00:09  0:00:09 --:--:--     0100    57    0     0  100    57      0      5  0:00:11  0:00:10  0:00:01     0100    57    0     0  100    57      0      5  0:00:11  0:00:11 --:--:--     0100    57    0     0  100    57      0      4  0:00:14  0:00:12  0:00:02     0100    57    0     0  100    57      0      4  0:00:14  0:00:13  0:00:01     0100    57    0     0  100    57      0      4  0:00:14  0:00:14 --:--:--     0100    57    0     0  100    57      0      3  0:00:19  0:00:15  0:00:04     0100    57    0     0  100    57      0      3  0:00:19  0:00:16  0:00:03     0100    57    0     0  100    57      0      3  0:00:19  0:00:17  0:00:02     0100    57    0     0  100    57      0      3  0:00:19  0:00:18  0:00:01     0100    78    0    21  100    57      1      2  0:00:28  0:00:19  0:00:09     4100    78    0    21  100    57      1      2  0:00:28  0:00:19  0:00:09     5
-HTTP/2 500 
-date: Sun, 30 Nov 2025 03:09:39 GMT
-content-type: text/plain;charset=UTF-8
-server: cloudflare
-cf-ray: 9a67253c0e98707d-MAD
-cf-cache-status: DYNAMIC
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-vary: Accept-Encoding
-sb-project-ref: uvszvjbzcvkgktrvavqe
-sb-request-id: 019ad2bc-818c-7c89-8d53-97afa0ba8b87
-x-deno-execution-id: 6ce879b3-4928-4f02-a1de-b454aaf807ef
-x-sb-edge-region: eu-west-3
-x-served-by: supabase-edge-runtime
-set-cookie: __cf_bm=uHdvtnrXpMJjs4xaw6MWg5UrstS1nGEI3VRfXRwPqfw-1764472179-1.0.1.1-degUs0V4Y1k2uyU6oqOmoo84t4DGYYfkr3Lv5.foYWBbDm3BH0ihLxzFCSvjzsVJto7OaGFlbI8KjnRO_22bTE_7MvWpJtfvi66VEagqOPc; path=/; expires=Sun, 30-Nov-25 03:39:39 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
-alt-svc: h3=":443"; ma=86400
-
-Internal Server Error

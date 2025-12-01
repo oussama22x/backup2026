@@ -1,22 +1,0 @@
-✅ Using fixed submission: ce9885cb-7693-4311-b5ad-3c833471fa48
-🚀 Triggering 'fn_receive_audition_submission' with this ID...
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112    0    55  100    57     53     55  0:00:01  0:00:01 --:--:--   108100   112    0    55  100    57     53     55  0:00:01  0:00:01 --:--:--   108
-HTTP/2 200 
-date: Sun, 30 Nov 2025 03:12:18 GMT
-content-type: application/json
-server: cloudflare
-cf-ray: 9a67298bc9adf528-MAD
-cf-cache-status: DYNAMIC
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-vary: Accept-Encoding
-sb-project-ref: uvszvjbzcvkgktrvavqe
-sb-request-id: 019ad2bf-336a-730d-8bad-bb4b222f7217
-x-deno-execution-id: f1a5e4bf-cea7-4b97-924c-72292f4a5ee5
-x-sb-edge-region: eu-west-3
-x-served-by: supabase-edge-runtime
-set-cookie: __cf_bm=n7vHQnikN0CH3ouF8K8J5BWa9MtT0c20c_BGOSUSioI-1764472338-1.0.1.1-1MvjX6tF0korue8VyT5XfiBSkMg97yWYuMgoIYInqlP2trkUOEQnAUz5NhXVCHp38W3VmEd2phlXStXEWKAZiq3z32qzCwkf61ZIHdaVG8U; path=/; expires=Sun, 30-Nov-25 03:42:18 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
-alt-svc: h3=":443"; ma=86400
-
-{"message":"Hello from fn_receive_audition_submission"}
